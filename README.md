@@ -53,6 +53,11 @@ The agent is trained using:
 At the end of training, epsilon reaches approximately **0.05** and remains constant.
 
 ---
+## 🗺️ Planning Comparison
+
+- RL uses value-based planning methods like Value Iteration and MCTS  
+- LLM agents use reasoning-based approaches like Chain-of-Thought and Tree-of-Thought  
+---
 
 ## 🧪 Experiments
 
