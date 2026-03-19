@@ -44,8 +44,9 @@ E[Σ γ^t r_t] — expected discounted future reward from (s,a), estimated via B
 Concepts like exploration, reward optimization, and value estimation inspire LLM agent planning  
 
 ## Planning (RL vs LLM)
-RL: value iteration, rollouts  
-LLM: chain-of-thought reasoning + tool usage  
+RL: Uses explicit planning methods such as value iteration and Monte Carlo Tree Search (MCTS) to evaluate future states and optimize expected rewards.
+
+LLM: Uses reasoning-based planning such as Chain-of-Thought and Tree-of-Thought, exploring multiple reasoning paths without an explicit environment model. 
 
 ## Algorithm
 Q ← Q + α [r + γ max_a' Q_target(s',a') − Q(s,a)]  
